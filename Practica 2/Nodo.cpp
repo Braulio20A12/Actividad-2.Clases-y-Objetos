@@ -3,7 +3,7 @@
 Nodo::Nodo()
 {
     dato=0;
-    sig=nullptr; //Constructor
+    sig=nullptr; 
 }
 
 Nodo::Nodo(int dato, Nodo *sig)

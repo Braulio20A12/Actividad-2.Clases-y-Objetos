@@ -34,7 +34,7 @@ void NeuronaFloat::insertarInicioVoltaje(float d)
     NodoFloat *aux=new NodoFloat(d, nullptr);
     NodoFloat *tmp=hFlo;
 
-    aux->nex=tmp;  //Auxiliar en su parte siguiente es igual a temporal
+    aux->nex=tmp;  
     hFlo=aux;
 }
 

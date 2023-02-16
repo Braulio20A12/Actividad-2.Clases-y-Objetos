@@ -14,8 +14,8 @@ int main()
 
     do{
             system("cls");
-        cout<<"ELIJA LA OPERACION A REALIZAR \n"<<endl;
-        cout<<"1-. AGREGAR INICIO \n2.-AGREGAR FINAL \n3.- MOSTRAR"<<endl;
+        cout<<"Seleccione la opcion \n"<<endl;
+        cout<<"1-. Inicio \n2.-Final \n3.- MOSTRAR"<<endl;
         cin>>menu;
         switch(menu)
         {
@@ -24,7 +24,7 @@ int main()
             system("cls");
             cout<<"\tAGREGAR INICIO"<<endl;
             cout<<"En donde desea agregar?"<<endl;
-            cout<<"1.- ID \n2.- Voltaje \n3.- POSICION_X \n4.- POSICION_Y \n5.- RED \n6.- GREEN \n7.- BLUE"<<endl;
+            cout<<"1.- ID \n2.- Voltaje \n3.- posicion x \n4.- posicion y \n5.- rojo \n6.- verde \n7.- azul"<<endl;
             cout<<"8.- SALIR"<<endl;
             cin>>aggIn;
             switch(aggIn)
@@ -57,9 +57,9 @@ int main()
             case 2:
                 do{
                 system("cls");
-                cout<<"\tAGREGAR FINAL"<<endl;
+                cout<<"\tAgregar final"<<endl;
                 cout<<"En donde desea agregar final?"<<endl;
-                cout<<"1.- ID \n2.- Voltaje \n3.- POSICION_X \n4.- POSICION_Y \n5.- RED \n6.- GREEN \n7.- BLUE"<<endl;
+                cout<<"1.- ID \n2.- Voltaje \n3.- posicion x \n4.- posicion y \n5.- rojo \n6.- verde \n7.- azul"<<endl;
                 cout<<"8.- SALIR"<<endl;
                 cin>>aggFin;
                 switch(aggFin)
@@ -89,7 +89,7 @@ int main()
                 }while(aggFin!=8);
                 break;
                 case 3:
-                    cout<<"\tMOSTRAR"<<endl;
+                    cout<<"\t mostrar"<<endl;
                     neu->mostrarId();
                     neuflo->mostrarFlo();
                     neu->mostrarPosx();
@@ -102,6 +102,6 @@ int main()
 
         }
     }while(menu!=4);
-    cout << "Hello world!" << endl;
+    cout << "ERROR " << endl;
     return 0;
 }
